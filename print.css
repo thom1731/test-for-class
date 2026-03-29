@@ -1,0 +1,128 @@
+/*Emery's CSS file*/
+
+@font-face {font-family: 'OpenDyslexic-Regular';
+	src: url(OpenDyslexic-Regular.otf) ;
+	font-weight: normal;
+	font-style: normal;}
+
+
+
+h1 { font-family: 'OpenDyslexic-Regular', Lora, arial, sans-serif;
+	font-weight: normal; 
+	font-size: 300% ;
+	margin-top: 0;
+	margin-bottom: 1px; }
+
+h2 { font-family: georgia, garamond, serif;
+	font-weight: normal; 
+	font-size: 200% ;
+	margin-top: 0;
+	margin-bottom: 1px; }
+
+
+
+body { font-family: lora, georgia, garamond, serif;
+	font-size: 15pt;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background: #10d7e2; 
+	background-image: none; } 
+
+/* testing out body image, hiding body color
+body { font-family: Lora, arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background: white url(images/bodybackground.jpg) ; } end of my comment*/
+
+
+ol { padding-left: 0;
+	margin-left: 30px; }
+
+img { padding: 4px;
+	border: 1px solid black;
+	background-color: white; }
+
+
+a { color: #4f56ab;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px solid #898989;
+	padding-bottom: 1px; }
+
+a:hover { background-color: #abb0ed; }
+
+div#wrapper { width: 728px;
+	      margin-left: auto;
+	      margin-right: auto;
+	      margin-top: 10px;
+	      margin-bottom: 10px;
+	      background-color: #10d7e2;
+	      background-repeat: repeat-y;
+	      background-position: left top;
+	      background-attachment: scroll; 
+	      padding: 10px; }
+
+article { float: none;
+	  width: 500px;
+	  padding-left: 10px; }
+
+nav { float: right;
+	width: 200px;
+	padding-right: 5px; }
+
+nav ul { list-style-type: none;
+	 border: none;
+	 margin-left: 0;
+	 padding-left: 5px;
+	 border-bottom: none;
+	 display: block;
+	 line-height 2;
+	 height: 1%;  }
+
+nav a { display: block;
+	background: #ebecf6;
+	padding-left: 1px;
+	line-height: 2;
+	border-bottom-color: #aabadd;
+	height: 1%;  }
+
+nav a:hover { background-color: white; } 
+
+nav li { display: none; }
+
+table { border: 1px solid black; }
+caption { display: none; }
+thead { color: white;
+	background-color: #cccccc;
+	text-align: left;  }
+tbody { font-family: 'OpenDyslexic-Regular', Lora, arial, sans-serif;
+	font-size: 90%; 
+	text-align: left; }
+
+footer { clear:both;
+	padding: 10px;
+	font-size: 75%;
+	height: 1%;
+	background-color: #0000ff;
+	color: #ffffff;
+	border-top: 2px dotted #464646;  }
+
+footer p { margin-bottom: 0; }
+
+footer a:link { color: yellow; } 
+
+footer a:hover, footer a:focus, footer a:active { background-color: transparent; border: none; }
+
+header { height: 90px; 
+	margin-bottom: 20px; }
+
+header h1, header p { text-indent: -9999999px; }
+
+
+
+
+
+
